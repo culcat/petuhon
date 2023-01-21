@@ -20,11 +20,7 @@ while userGuess != NumberToGuess:
         if tryScore>7:
             print("Ты лох!")
             break     
-    elif userGuess< NumberToGuess-5:{ 
-       print("Подсказка число больше чем:",help2)}      
-    elif userGuess<NumberToGuess-7:{
-        print('hui')
-    }
+  
    
     
     elif userGuess < NumberToGuess:       
@@ -32,12 +28,7 @@ while userGuess != NumberToGuess:
         if tryScore>7:
             print("Ты лох!")
             break
-    elif userGuess>NumberToGuess+6:
-        print("Подскахка: число меньше чем:",help3) 
-    
-    elif userGuess>NumberToGuess+8:
-        print("Подскахка: число меньше чем:",help1) 
-
+   
     elif userGuess == NumberToGuess:      
         print("Вы угадали, это число = " , NumberToGuess,'Понадобилось попыток:',tryScore)
         nextTry= input("Еще играем? д/н")
